@@ -21,3 +21,21 @@ header{
     margin-right: auto;
     width: 50%;
 }
+.linkleft{
+    display: block;
+    margin-right: auto;
+    float: left;
+    border: darkgrey solid 2.5px;
+}
+.linkleft:hover{
+    border: crimson solid 3px;
+}
+.linkright{
+    display: block;
+    margin-left: auto;
+    float:right;
+    border: darkgrey solid 2.5px;
+}
+.linkright:hover{
+    border: crimson solid 3px;
+}
