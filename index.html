@@ -6,11 +6,11 @@
     </head>
     <style>
       ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(172, 10, 10);
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(172, 10, 10);
 }
 
 li {
@@ -31,6 +31,26 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #2c2c2c;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
     </style>
     <body>
@@ -58,8 +78,27 @@ function checkTime(i) {
         <li><a href="index.html">Home</a></li>
         <li><a href="content.html">Comics</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li style="float:right"><a class="active" href="#about">Search</a></li>
+        <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
       </ul>
+      <div class="gallery">
+        <a target="_blank" href="alextoth.png">
+          <img src="alextoth.png" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="mignola.png">
+          <img src="mignola.png" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="perspective.png">
+          <img src="perspective.png" Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
     </body>
 </html>
