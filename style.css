@@ -4,14 +4,20 @@ h1{
 body{
     background-color: beige;
 }
-img{
+.logo{
     border: 5px solid green;
     border-radius: 15%;
 }
-img:hover{
+.logo:hover{
     border: 5px solid red;
     border-radius: 15%;
 }
 header{
     background-color: rgba(193, 237, 255, 0.39);
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
