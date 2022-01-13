@@ -4,10 +4,37 @@
         <title>Sociamics</title>
         <link rel="stylesheet" href="style.css">
     </head>
+    <style>
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 0, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(178, 174, 236);
+}
+
+.active {
+  background-color: #ffffff;
+}
+    </style>
     <body>
-        <div class="right">
         <img src="site_logo.png" height="150px" width="auto">
-        </div>
         <body onload="startTime()">
         <div id="txt"></div>   
         <script>
@@ -27,5 +54,11 @@ function checkTime(i) {
   return i;
 }
         </script>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a class="active" href="#about">Search</a></li>
+      </ul>
     </body>
 </html>
