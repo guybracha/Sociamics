@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(172, 10, 10);
 }
 
 li {
@@ -19,7 +19,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -30,11 +30,11 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #ffffff;
+  background-color: #2c2c2c;
 }
     </style>
     <body>
-        <img src="site_logo.png" height="150px" width="auto">
+      <div style="text-align: right;"><img src="site_logo.png" alt="site_logo" height="150px" width="auto"></div>
         <body onload="startTime()">
         <div id="txt"></div>   
         <script>
@@ -55,9 +55,10 @@ function checkTime(i) {
 }
         </script>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content.html">Comics</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li style="float:right"><a class="active" href="#about">Search</a></li>
       </ul>
     </body>
