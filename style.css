@@ -17,9 +17,8 @@ header{
 }
 .center{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 30%;
+    margin: 0px auto;
 }
 .linkleft{
     display: block;
@@ -38,4 +37,8 @@ header{
 }
 .linkright:hover{
     border: crimson solid 3px;
+}
+.clock{
+    float: left;
+    display: block;
 }
