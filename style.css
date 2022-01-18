@@ -55,6 +55,7 @@ footer{
     color:rgb(136, 116, 5);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    display: block;
 }
 p{
     text-align: center;

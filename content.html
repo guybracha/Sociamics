@@ -2,96 +2,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sociamics</title>
+    <title>Sociamics - The Contents</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="site_logo.png">
-<style>
-     ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgb(172, 10, 10);
-      font-family: 'Courier New', Courier, monospace;
-      }
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: rgb(178, 174, 236);
-}
-
-.active {
-  background-color: #2c2c2c;
-}
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-</style>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="column.css">
 </head>
+<style>
+</style>
 <body>
     <header>
         <div style="text-align: right;"><img src="site_logo.png" alt="site_logo" height="150px" width="auto"></div>
@@ -129,19 +47,28 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="mignola.png" style="width:100%" onclick="myFunction(this);">
+    <img src="mignola.png" style="width: 150px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="alextoth.png" style="width:100%" onclick="myFunction(this);">
+    <img src="alextoth.png" style="width: 150px;" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="perspective.png" style="width:100%" onclick="myFunction(this);">
+    <img src="perspective.png" style="width: 150px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="electricbanana.png" style="width:150px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="greatpower.png" style="width: 150px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Page1.jpg" style="width: 150px;" onclick="myFunction(this);">
   </div>
 </div>
 
 <div class="container">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
+  <img id="expandedImg" style="width: 100%;">
   <div id="imgtext"></div>
 </div>
 
