@@ -5,7 +5,8 @@ h1{
 }
 h1:hover{
     color:darkblue;
-    background-color: white;
+    background-color: red;
+    border: solid 5.5px black;
 }
 body{
     background-color: beige;
