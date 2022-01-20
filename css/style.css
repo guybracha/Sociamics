@@ -6,7 +6,7 @@ h1{
 h1:hover{
     color:darkblue;
     background-color: red;
-    border: solid 5.5px black;
+    outline: solid 5.5px black;
 }
 body{
     background-color: beige;
