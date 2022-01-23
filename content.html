@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/column.css">
     <link rel="stylesheet" href="css/myimg.css">
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/slideshow.css">
 </head>
 <style>
 </style>
@@ -29,32 +29,66 @@
   <h2>The Contents</h2>
   <p>Click on the images below:</p>
 </div>
-<div class="gallery">
-  <a target="_blank" href="jpg/alextoth.png">
-    <img src="jpg/alextoth.png" alt="alex toth" width="600" height="400">
-  </a>
-  <div class="desc">Alex Toth</div>
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="jpg/alextoth.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/electricbanana.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/mignola.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/perspective.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/onlyinisrael.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/victorianlondon.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/liveshow.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/Classof21 Finished.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="jpg/Page1.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/Page2.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/Page3.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="jpg/animals.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+    <div class="column">
+      <img src="jpg/dozen.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="jpg/moebius.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+    </div>
+</div>
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="jpg/electricbanana.png">
-    <img src="jpg/electricbanana.png" alt="electric banana" width="600" height="400">
-  </a>
-  <div class="desc">electric banana</div>
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="jpg/mignola.png">
-    <img src="jpg/mignola.png" alt="mignola" width="600" height="400">
-  </a>
-  <div class="desc">Homage to mike mignola's style.</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="jpg/greatpower.png">
-    <img src="jpg/greatpower.png" alt="great power" width="600" height="400">
-  </a>
-  <div class="desc">The caution of being superpowered...</div>
-</div>
+  <script src="scripts/slideshow.js"></script>
+<h2>I hope that you've enjoyed from our Contents, have a nice day...</h2>
 </body>
+<footer>
+  <p>Developed By Guy Bracha - 2022</p>
+  <a href="mailto:guy.bracha@gmail.com">guy.bracha@gmail.com</a></p>
+</footer>
 </html>
