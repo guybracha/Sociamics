@@ -28,7 +28,7 @@
   .row:after {
     content: "";
     display: table;
-    clear: both;
+    clear:both;
   }
   
   /* The expanding image container */
