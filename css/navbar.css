@@ -19,7 +19,7 @@ text-decoration: none;
 }
 
 li a:hover:not(.active) {
-background-color: rgb(178, 174, 236);
+background-color: rgb(43, 37, 122);
 }
 
 .active {
