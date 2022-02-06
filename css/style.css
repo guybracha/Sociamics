@@ -14,7 +14,7 @@ h2:hover{
     outline: solid 5.5px rgb(255, 255, 255);
 }
 body{
-    background-color: olive;
+    background-color: rgb(14, 104, 110);
 }
 .logo{
     border: 5px solid green;
@@ -63,7 +63,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(50, 47, 85);
+    background-color: rgb(15, 0, 185);
     color: red;
     text-align: center;
  }
@@ -75,15 +75,30 @@ p{
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
     body {
-      background-color: olive;
+      background-color:rgb(14, 104, 110);
       color: white;
     }
   }
   
-  /* On screens that are 600px wide or less, the background color is olive */
+  /* On screens that are 600px wide or less, the background color isrgb(14, 104, 110) */
   @media screen and (max-width: 600px) {
     body {
-      background-color: olive;
+      background-color:rgb(14, 104, 110);
       color: white;
 }
+  }
+  a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
   }
